@@ -11,6 +11,8 @@
 		EFA1F13C2799E20800DADC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F13B2799E20800DADC6C /* ContentView.swift */; };
 		EFA1F13E2799E20900DADC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1F13D2799E20900DADC6C /* Assets.xcassets */; };
 		EFA1F1412799E20900DADC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1F1402799E20900DADC6C /* Preview Assets.xcassets */; };
+		EFA1F148279F123600DADC6C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F147279F123600DADC6C /* CircleView.swift */; };
+		EFA1F14A279F187900DADC6C /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F149279F187900DADC6C /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EFA1F13B2799E20800DADC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFA1F13D2799E20900DADC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA1F1402799E20900DADC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA1F147279F123600DADC6C /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		EFA1F149279F187900DADC6C /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EFA1F1392799E20800DADC6C /* TraficLightApp.swift */,
 				EFA1F13B2799E20800DADC6C /* ContentView.swift */,
+				EFA1F149279F187900DADC6C /* ChangeColorButton.swift */,
+				EFA1F147279F123600DADC6C /* CircleView.swift */,
 				EFA1F13D2799E20900DADC6C /* Assets.xcassets */,
 				EFA1F13F2799E20900DADC6C /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA1F148279F123600DADC6C /* CircleView.swift in Sources */,
 				EFA1F13C2799E20800DADC6C /* ContentView.swift in Sources */,
 				EFA1F13A2799E20800DADC6C /* TraficLightApp.swift in Sources */,
+				EFA1F14A279F187900DADC6C /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
